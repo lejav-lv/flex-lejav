@@ -1,0 +1,5 @@
+com.hisw.common.core.config.ApplicationConfig
+com.hisw.common.core.config.AsyncConfig
+com.hisw.common.core.config.HiswBootConfig
+com.hisw.common.core.config.ThreadPoolConfig
+com.hisw.common.core.config.ValidatorConfig

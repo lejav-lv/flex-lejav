@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.hisw</groupId>
+    <artifactId>hisw-common-bom</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <description>
+       common依赖项
+    </description>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- 核心模块 -->
+            <dependency>
+                <groupId>com.hisw</groupId>
+                <artifactId>hisw-common-core</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- 加解密模块 -->
+            <dependency>
+                <groupId>com.hisw</groupId>
+                <artifactId>hisw-common-encrypt</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- excel模块 -->
+            <dependency>
+                <groupId>com.hisw</groupId>
+                <artifactId>hisw-common-excel</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- 序列化模块 -->
+            <dependency>
+                <groupId>com.hisw</groupId>
+                <artifactId>hisw-common-json</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- 日志模块 -->
+            <dependency>
+                <groupId>com.hisw</groupId>
+                <artifactId>hisw-common-log</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- 数据库映射模块 -->
+            <dependency>
+                <groupId>com.hisw</groupId>
+                <artifactId>hisw-common-orm</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- oss对象存储服务模块 -->
+            <dependency>
+                <groupId>com.hisw</groupId>
+                <artifactId>hisw-common-oss</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- 限流公共服务 -->
+            <dependency>
+                <groupId>com.hisw</groupId>
+                <artifactId>hisw-common-ratelimiter</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- 缓存服务 -->
+            <dependency>
+                <groupId>com.hisw</groupId>
+                <artifactId>hisw-common-redis</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- 安全模块 -->
+            <dependency>
+                <groupId>com.hisw</groupId>
+                <artifactId>hisw-common-security</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- 多租户模块 -->
+            <dependency>
+                <groupId>com.hisw</groupId>
+                <artifactId>hisw-common-tenant</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- web服务 -->
+            <dependency>
+                <groupId>com.hisw</groupId>
+                <artifactId>hisw-common-web</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- WebSocket模块 -->
+            <dependency>
+                <groupId>com.hisw</groupId>
+                <artifactId>hisw-common-websocket</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- mongodb模块 -->
+            <dependency>
+                <groupId>com.hisw</groupId>
+                <artifactId>hisw-common-mongodb</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+</project>

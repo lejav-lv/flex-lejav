@@ -1,0 +1,3 @@
+com.hisw.common.encrypt.config.EncryptorAutoConfiguration
+com.hisw.common.encrypt.config.ApiDecryptAutoConfiguration
+

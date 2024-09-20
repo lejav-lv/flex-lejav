@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.hisw</groupId>
+        <artifactId>hisw-boot-flex</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>hisw-common-bom</module>
+        <module>hisw-common-core</module>
+        <module>hisw-common-encrypt</module>
+        <module>hisw-common-excel</module>
+        <module>hisw-common-json</module>
+        <module>hisw-common-log</module>
+        <module>hisw-common-orm</module>
+		<module>hisw-common-oss</module>
+        <module>hisw-common-ratelimiter</module>
+        <module>hisw-common-redis</module>
+        <module>hisw-common-security</module>
+        <module>hisw-common-tenant</module>
+        <module>hisw-common-web</module>
+        <module>hisw-common-websocket</module>
+        <module>hisw-common-mongodb</module>
+    </modules>
+
+    <artifactId>hisw-common</artifactId>
+
+    <description>
+        公共模块
+    </description>
+
+</project>
